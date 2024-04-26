@@ -4,8 +4,8 @@
   <groupId>com.app.raghu</groupId>
   <artifactId>webapp</artifactId>
   <packaging>war</packaging>
-  <version>3.0-RELEASE</version>
-  <name>01-maven-web-app</name>
+  <version>1.0.0</version>
+  <name>webapp1</name>
   <url>http://maven.apache.org</url>
  
   <dependencies>
@@ -25,14 +25,5 @@
       </plugin>
     </plugins>
   </build>
-   <distributionManagement>
-      <snapshotRepository>
-        <id>nexus-snapshots</id>
-        <url>http://35.93.64.224:8080/repository/maven-snapshots/</url>
-      </snapshotRepository>
-      <repository>
-        <id>nexus-releases</id>
-        <url>http://35.93.64.224:8080/repository/maven-releases/</url>
-      </repository>
-    </distributionManagement>
+   
 </project>
