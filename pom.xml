@@ -25,14 +25,5 @@
       </plugin>
     </plugins>
   </build>
-   <distributionManagement>
-      <snapshotRepository>
-        <id>nexus-snapshots</id>
-        <url>http://54.149.232.123:8080/repository/yadhu-repositories/</url>
-      </snapshotRepository>
-      <repository>
-        <id>nexus-releases</id>
-        <url>http://54.149.232.123:8080/repository/yadhu-relese/</url>
-      </repository>
-    </distributionManagement>
+   
 </project>
